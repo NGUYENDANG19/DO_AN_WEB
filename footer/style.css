@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/* Thanh footer */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+footer{
+    float: left;
+    width: 100%;
+    background-color: #143b36;
+    min-height:150px;
+}
+.row{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.boxcenter2{
+    width: 90%;
+    margin: 20px auto;
+}
+.boxfooter1{
+    width: 38%;
+    float: left;
+    margin-right: 2%;
+    
+}
+
+.phone a{
+    color: #a37b44;
+    
+}
+.email a{
+    color: #a37b44;
+    
+} 
+.boxfooter2{
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter3{
+    width: 20%;
+    float: left;
+}
+.boxfooter4{
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+}
+
+.textcenter{
+    text-align: center;
+}
+.colorc{
+    color:#fff;
+    
+}
+.mrb10{
+    margin-bottom: 15px;
+}
+footer a{
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #c69f12;
+   text-decoration: none;
+}
+.text {
+    margin-bottom:50px ;
+   
+}
+.clRow1{
+ background-color: #143b36;   
+}
+.clRow2{
+    background-color: #0e2825;
+}
+.w{
+    padding: 20px 0px ;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.social  {
+    list-style: none;
+    margin-left: -35px;
+    
+}
+.thanhtoan{
+    list-style: none;
+    margin-left: -35px;
+   
+}
+ul li {
+    display: inline;
+    margin-right: 5px;
+}
+#BTN{
+    padding: 20px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #d69c52;
+    border-radius: 8px;
+    box-shadow:0 1px #a37b44;
+    border-color:    #d69c52;
+    margin-top: 50px;
+}
+.backtop {
+    position: fixed;
+    bottom: 210px;
+    top: auto !important;
+    right: 40px;
+    background: #d69c52;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    line-height:-50px;
+    z-index: 999;
+    opacity: 0;
+}
+.backtop:hover{
+    background-color: #a37b44;
+}
+.backtop.show {
+    opacity: 1;
+}
+#home{
+    color: #fff;
+    text-decoration: none;
+}
+.row i{
+    color: #fff;
+}

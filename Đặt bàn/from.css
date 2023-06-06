@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --bg-color: #D69c52;
+    --main-color: rgba(20,59,54,0.63);
+    --text-color: #fff;
+    --bg-hover: #c0720d;
+}
+#header-container {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 83px;
+    padding: 0 50px;
+    background-color: #143b36;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1; 
+}
+
+#header-container .logo {
+    color: var(--bg-color);
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#header-container .nav-container {
+    display: flex;
+}
+
+#header-container .nav-container li {
+    margin: 0 20px;
+}
+
+#header-container .nav-container li a {
+    color: var(--text-color);
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+#header-container .nav-container li a:hover {
+    color: var(--bg-color);
+}
+
+#header-container .button-container {
+    align-items: center;
+    display: flex;
+}
+
+#header-container .button-container a {
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 0 20px 0 0;
+    transition: all 0.1s ease;
+}
+
+#header-container .button-container a:hover {
+    color: var(--bg-hover);
+}
+
+.button-container .button-item {
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.button-container .button-item:hover {
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--bg-hover);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 50px 50px ;
+    background-color: #143b36;
+  }
+  
+/* Thiết lập kích thước phần tử section và background */
+section {
+    width: 100%; /* thiết lập chiều rộng là 80% */
+    height: 500px; /* thiết lập chiều cao là 500px */
+    background-image: url('/img/backround1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    position: relative;
+    
+  }
+  h2{
+    font-size: 2.5em;
+    color: white;
+    text-align:  center;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 30px;
+   
+}
+.form-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 450px;
+    background-color: #143b36;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .x{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  
+  /* Thiết lập kiểu cho các input và label trong form */
+  
+ p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+
+ }
+.inputbox input{
+    width: 250px;
+    height: 35px;
+    border-radius: 8px;
+    padding: 0 20px ;
+ }
+  
+  .inputbox p {
+    margin-bottom: 1px;
+  }
+  
+  .inputbox {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+    
+  }
+  
+  input:focus {
+    border-bottom-color: #333;
+    outline: none;
+  }
+  
+  .register {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+  }
+  
+  .register span {
+    color: #b96a04;
+  }
+ .register a{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+
+    text-decoration: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #d69c52     ;
+    color: #fff;
+    font-weight: lighter;
+    outline: none;
+    line-height: 40px;
+  }
+  .register a:hover{
+    background: #b96a04;
+  }
